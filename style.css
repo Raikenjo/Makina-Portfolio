@@ -125,11 +125,12 @@ body {
 
 .media video {
     width: 100%;
-    max-width: 720px; /* 💡 Ukuran maksimal */
+    max-width: 720px;
+    height: auto; /* ✅ Tambahkan ini agar proporsional */
+    aspect-ratio: 16/9; /* ✅ Tambahkan ini untuk menjaga rasio */
     border-radius: 0.5rem;
-    box-shadow: 0 0 20px rgba(255, 45, 85, 0.2); /* opsional: efek glow */
+    box-shadow: 0 0 20px rgba(255, 45, 85, 0.2);
 }
-
 
 .screenshots img {
     width: 100%;
